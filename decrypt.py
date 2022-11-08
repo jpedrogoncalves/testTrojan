@@ -31,7 +31,7 @@ with open("thekey.key", "rb") as key:
             break
         else:
             count += 1
-            print(":(")
+            print(f"You have {5-count} attempts remaining.")
 
 if count == 5:
     for a in files:
